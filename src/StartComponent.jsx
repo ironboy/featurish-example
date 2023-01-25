@@ -1,13 +1,15 @@
 // useful hooks, comment these in, when needed:
 // import { useStates } from './utilities/states.js';
 // import { useEffect } from 'react';
+import MainMenu from "./MainMenu";
 
 import Footer from './Footer';
 
 export default function StartComponent() {
 
   return <>
-    <h1>Hello world!</h1>
+    <MainMenu />
+    <h1>Hello universe!</h1>
     <Footer />
   </>;
 }
