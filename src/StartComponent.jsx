@@ -3,10 +3,13 @@
 // import { useEffect } from 'react';
 import MainMenu from "./MainMenu";
 
-export default function App() {
+import Footer from './Footer';
+
+export default function StartComponent() {
 
   return <>
     <MainMenu />
     <h1>Hello world!</h1>
+    <Footer />
   </>;
 }
