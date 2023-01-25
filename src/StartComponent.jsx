@@ -2,9 +2,12 @@
 // import { useStates } from './utilities/states.js';
 // import { useEffect } from 'react';
 
-export default function App() {
+import Footer from './Footer';
+
+export default function StartComponent() {
 
   return <>
     <h1>Hello world!</h1>
+    <Footer />
   </>;
 }
