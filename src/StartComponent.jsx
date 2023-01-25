@@ -4,7 +4,7 @@
 
 import Footer from './Footer';
 
-export default function App() {
+export default function StartComponent() {
 
   return <>
     <h1>Hello world!</h1>
